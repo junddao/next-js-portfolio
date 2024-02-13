@@ -17,18 +17,17 @@ const Homepage = () => {
           <Image src="/hero.png" alt="" fill className="object-contain"></Image>
         </div>
         {/* TEXT Container */}
-        <div className="h-1/2 flex flex-col items-center justify-center">
+        <div className="h-full flex flex-col gap-12 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
-            Welcome to my portfolio
+            Welcome to Miro&apos;s portfolio
           </h1>
-          <div className="h-5"></div>
+
           {/* DESCRIPTION */}
           <p className="md:text-xl">
             I am a flutter developer with a passion for building beautiful
             websites and applications.
           </p>
-          <div className="h-5"></div>
 
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
