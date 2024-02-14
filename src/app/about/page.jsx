@@ -16,6 +16,7 @@ const Page = () => {
   const isExperienceRefInView = useInView(experienceRef);
 
   console.log(scrollYProgress);
+
   return (
     <motion.div
       className="h-full"
@@ -26,7 +27,7 @@ const Page = () => {
       {/* Container */}
       <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
         {/* text container */}
-        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-40 md:gap-52 lg:gap-y-64 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
+        <div className="p-4 sm:p-8 md:p-12  lg:p-20 xl:p-48 flex flex-col gap-40 md:gap-52 lg:gap-y-64 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
           {/* biography container */}
           <div className="flex flex-col gap-12 justify-center ">
             {/* TITLE */}
